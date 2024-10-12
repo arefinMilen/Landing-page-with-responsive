@@ -1,0 +1,142 @@
+/* navbar start here */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+body
+{
+    background-color: rgb(203, 237, 252);
+}
+
+.nav-head
+{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(32, 32, 108);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 1% 4%;
+    font-family: "Oswald", sans-serif;
+}
+.btn-head
+{
+    color: rgb(32, 32, 108);
+    background-color: skyblue;
+    border-radius: 24px;
+    padding: 4px 8px;
+    margin-bottom:5%;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.btn-head:hover{
+    color: white;
+    background-color: rgb(8, 159, 219);
+}
+
+.nav-logo
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 8px solid #062c6f;
+    size: 3.5rem;
+    font-size: 2rem;
+    background-color: white;
+    color: #062c6f;
+    /* padding: 0 5px; */
+    /* margin:5px; */
+}
+.nav_link a
+{
+    font-size: 27px;
+    padding: 0 20px;
+}
+.nav_link a:hover{
+    color: white;
+    background-color: #062c6f;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+#lang
+{
+    padding: 5px 17px;
+    border: 2px solid rgb(32, 32, 108);
+    border-radius: 10px;
+    font-weight: 900;
+}
+.navbar
+{
+    display: flex;
+}
+.nav-lower{
+    
+    justify-content: left;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 3%;
+    font-size: 28px;
+    font-weight: 1500;
+}
+.navlower-h3{
+    font-size: 26px;
+    font-weight: 500;
+    }
+    
+.nav-lower .btn
+{
+     
+    text-align: left;
+    
+}
+
+ .img-container
+{
+    position: relative;
+    /* width: 300px; */
+    /* display: flex; */
+    
+} 
+.animation
+{
+    
+    text-align:center;
+    height:90vh;
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:10%;
+    padding-top:15%;
+    width:90vh;
+    justify-content: center;
+    
+}
+
+.backDesign
+{
+    width: 100vh; 
+     height: 110vh;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+}
+
+/* navbar ends here */
+
+/* products section starts here */
+
+
+/* products sections ends here */
