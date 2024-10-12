@@ -211,7 +211,7 @@ font-size: 19px;
     clear: both;
 }
 
-section
+.section-wave
 {
     position: relative;
     width: 100%;
@@ -258,13 +258,317 @@ section .wave
     background-color: #fff;
     font-size: 24px;
 }
-#product-h1
+ .products
 {
-    margin-bottom: 20px;
-}
-#product-p
-{
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    /* margin-left: 30px; */
+    
+    
 }
 
+.card{
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 25px;
+    padding: .5rem;
+    transition: all .3s;
+    /* margin: auto; */
+    /* width: 98%; */
+    /* height: 82vh;
+    width: 44vh;
+    margin: 40px;
+    gap: 1.5rem; */
+}
+
+.card:hover {
+    box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
+}
+
+.card:hover
+{
+    
+    background-image: url(/photo/Mandala_v2_o.svg); 
+    
+    
+}
+
+.product_img
+{
+    width: 100%;
+    height: 15rem;
+}
+.product-body
+{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; 
+}
+.product-name
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.h3-coco
+{
+    color: #062c6f;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.h3-sparkling
+{
+    color: green;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.h3-soda
+{
+    color: rgb(174, 5, 5);
+    font-size: 20px;
+    font-weight: 1000;
+}
+.h3-bars
+{
+    color: #062c6f;
+    font-size: 20px;
+    font-weight: 1000;
+}
+#sup-style
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 8px;
+    padding: 1px;
+}
+.btn{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 24px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    margin: 20px;
+    margin-left: 45px;
+}
+.btn-coco
+{
+    background-color: #062c6f;
+}
+.btn-sparkling
+{
+    background-color: green;
+}
+.btn-soda
+{
+    background-color: rgb(214, 20, 20);
+}
+.btn-bars
+{
+    background-color: #062c6f;
+}
+.products .coco
+{
+background-color: rgb(203, 237, 252);
+}
+.products .sparkling
+{
+background-color: lemonchiffon;
+}
+.products .soda
+{
+background-color: lightcoral;
+}
+.products .bars
+{
+background-color: rgb(150, 216, 242);
+}
+
+.probtn
+{
+    text-align: center;
+    justify-content: center;
+    /* top: 50%;
+    left: 40%;
+    translate: (-50%,-50%);
+    position: relative; */
+    padding: 20px 30px;
+    border-radius: 25px;
+    background-color: #062c6f;
+    margin: 30px;
+    border: none;
+}
+.probtn a{
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+}
+/* 
+.product-name
+{
+    text-align: center;
+    justify-content: center;
+}
+.h1-coco
+{
+    color: #062c6f;
+    font-size: 20px;
+    font-weight: 1000;
+} */
+/*
+
+
+.h1-sparkling
+{
+    color: green;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.h1-soda
+{
+    color: rgb(174, 5, 5);
+    font-size: 20px;
+    font-weight: 1000;
+}
+.h1-bars
+{
+    color: #062c6f;
+    font-size: 20px;
+    font-weight: 1000;
+}
+#r-border
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 8px;
+    padding: 1px;
+}
+.btn{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 24px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    margin: 20px;
+    margin-left: 45px;
+}
+.btn-coco
+{
+    background-color: #062c6f;
+}
+.btn-sparkling
+{
+    background-color: green;
+}
+.btn-soda
+{
+    background-color: rgb(214, 20, 20);
+}
+.btn-bars
+{
+    background-color: #062c6f;
+}
+
+
+.product:hover
+{
+    background-image: url(/photo/background.jpg);
+    background-position-x: center;
+    background-size: 40vh;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */ 
+  /*  
+}
+
+.card{
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 25px;
+    
+    padding: 2rem;
+    height: 82vh;
+    width: 44vh;
+    margin: 40px;
+    gap: 1.5rem;
+}
+.img-style
+{
+    height: 56vh;
+    width: 33vh;
+    border-radius: 30px;
+} */
+/* .card:hover
+{
+    
+    /* background-image: url(/photo/coconut-water-hover.jpg); */
+
+/* .probtn
+{
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 40%;
+    translate: (-50%,-50%);
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 25px;
+    background-color: #062c6f;
+    margin: 30px;
+    border: none;
+}
+.probtn a{
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+} */
+
+
+/* .products .coco
+{
+background-color: rgb(203, 237, 252);
+}
+.products .sparkling
+{
+background-color: lemonchiffon;
+}
+.products .soda
+{
+background-color: lightcoral;
+}
+.products .bars
+{
+background-color: rgb(150, 216, 242);
+} */
+
+/* .products::after{
+    content: '';
+    display: table;
+    clear: both;
+} */
 /* products sections ends here */
+
+.products{
+    grid-template-columns: repeat(4, minmax(0,1fr));
+}
+
+@media (max-width: 1112px)
+{
+    .products{
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+}
+@media (max-width:575px)
+{
+    .products{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+    }
+}
