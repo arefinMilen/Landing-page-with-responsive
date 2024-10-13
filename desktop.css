@@ -134,6 +134,14 @@ body
      border-radius: 25px;
 }
 
+.product-body
+{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; 
+}
+
 /* navbar ends here */
 
 /* products section starts here */
