@@ -145,6 +145,13 @@ body
 /* navbar ends here */
 
 /* products section starts here */
-
-
+/* 
 /* products sections ends here */
+
+.footer-end
+{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+}
+

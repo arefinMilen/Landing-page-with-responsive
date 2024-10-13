@@ -394,15 +394,16 @@ background-color: rgb(150, 216, 242);
 {
     text-align: center;
     justify-content: center;
-     top: 50%;
-    left: 40%;
-    translate: (-50%,-50%);
-    position: relative;
+     /* top: 50%;
+    left: 50%; */
+    /* translate: (-50%,-50%); */
+    /* position: relative; */
     padding: 20px 30px;
     border-radius: 25px;
     background-color: #062c6f;
-    margin: 30px;
+    margin-left: 100px ;
     border: none;
+    
     
 }
 .probtn a{
@@ -411,73 +412,6 @@ background-color: rgb(150, 216, 242);
     font-weight: 1000;
 }
 /* 
-.product-name
-{
-    text-align: center;
-    justify-content: center;
-}
-.h1-coco
-{
-    color: #062c6f;
-    font-size: 20px;
-    font-weight: 1000;
-} */
-/*
-
-
-.h1-sparkling
-{
-    color: green;
-    font-size: 20px;
-    font-weight: 1000;
-}
-.h1-soda
-{
-    color: rgb(174, 5, 5);
-    font-size: 20px;
-    font-weight: 1000;
-}
-.h1-bars
-{
-    color: #062c6f;
-    font-size: 20px;
-    font-weight: 1000;
-}
-#r-border
-{
-    border: 1px solid black;
-    border-radius: 50%;
-    font-size: 8px;
-    padding: 1px;
-}
-.btn{
-    
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 20px 24px;
-    border-radius: 25px;
-    border: none;
-    text-align: center;
-    margin: 20px;
-    margin-left: 45px;
-}
-.btn-coco
-{
-    background-color: #062c6f;
-}
-.btn-sparkling
-{
-    background-color: green;
-}
-.btn-soda
-{
-    background-color: rgb(214, 20, 20);
-}
-.btn-bars
-{
-    background-color: #062c6f;
-}
 
 
 .product:hover
@@ -491,22 +425,6 @@ background-color: rgb(150, 216, 242);
   /*  
 }
 
-.card{
-    box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 25px;
-    
-    padding: 2rem;
-    height: 82vh;
-    width: 44vh;
-    margin: 40px;
-    gap: 1.5rem;
-}
-.img-style
-{
-    height: 56vh;
-    width: 33vh;
-    border-radius: 30px;
-} */
 /* .card:hover
 {
     
@@ -533,28 +451,7 @@ background-color: rgb(150, 216, 242);
 } */
 
 
-/* .products .coco
-{
-background-color: rgb(203, 237, 252);
-}
-.products .sparkling
-{
-background-color: lemonchiffon;
-}
-.products .soda
-{
-background-color: lightcoral;
-}
-.products .bars
-{
-background-color: rgb(150, 216, 242);
-} */
 
-/* .products::after{
-    content: '';
-    display: table;
-    clear: both;
-} */
 /* products sections ends here */
 
 footer
@@ -569,8 +466,94 @@ footer
     height: 50vh;
     width: 50vh;
     margin: 65px;
+    background-image: url(/photo/Mandala_v2_o.svg);
 }
 
+.input-footer
+{
+    width: 90%;
+    height: 12vh;
+    border-radius: 20px;
+    border: none;
+    padding: 1% 2%;
+    font-size: 20px;
+    
+    
+    
+}
+.btn-footer
+{
+    color: white;
+    background-color: #062c6f;
+    margin-left: -140px;
+}
+.h3-footer
+{
+    font-size: 28px;
+}
+.h3-footer span
+{
+    color: white;
+}
+.h4-footer
+{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.des-footer
+{
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.social-footer
+{
+    margin-top: 20px;
+}
+
+.social-links{
+    margin:20px;
+    
+    
+}
+.social-links .insta
+{
+    border: 1px solid #062c6f;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: #062c6f;
+    color: white;
+}
+.social-links .face
+{
+    border: 1px solid #062c6f;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: #062c6f;
+    color: white;
+}
+.social-links .twitt
+{
+    border: 1px solid #062c6f;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: #062c6f;
+    color: white;
+}
+
+/* span{
+    color: rgb(201, 38, 38);
+    
+} */
+.social-footer h3
+{
+    margin-top: 20px;
+}
+.footer-btn
+{
+    background-color: #062c6f;
+}
 .wavy
 {
     position: relative;
