@@ -38,6 +38,10 @@
     background-color: rgb(8, 159, 219);
 }
 
+#menu-icon
+{
+display: none;
+}
 .nav-logo
 {
     height: 80px;
@@ -597,6 +601,15 @@ footer
 {
     .products{
         grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+    #menu-icon
+    {
+        display: block;
+
+    }
+    .hidden
+    {
+        display: none;
     }
 }
 @media (max-width:575px)
