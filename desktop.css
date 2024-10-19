@@ -100,6 +100,9 @@ body
 {
      
     text-align: left;
+    padding: 0%;
+    margin-left: 0;
+    
     
 }
 
@@ -144,14 +147,64 @@ body
 
 /* navbar ends here */
 
+
 /* products section starts here */
-/* 
+.product-btn
+{
+    text-align: center;
+    margin-left: 0;
+}
 /* products sections ends here */
+
+
+/* footer starts here */
+
+.footer-upper
+{
+    display: flex;
+}
+.footer-headline
+{
+    text-align: left;
+}
+
+.footer-list
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.h3-footer
+{
+    text-align: left;
+}
+.footer-link
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+
+}
+.footer-link a{
+    font-size: 15px;
+    font-weight: 400;
+    padding: .5rem 0;
+}
 
 .footer-end
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: .5rem;
 }
+.footer-copy-right
+{
+    text-align: left;
+    margin-left: 40px;
+}
 
+
+
+/* footer ends here */

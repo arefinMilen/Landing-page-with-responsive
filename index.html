@@ -107,34 +107,34 @@
             </h3>
             <button class="btn btn-coco">SHOP NOW</button>
         </div>  
-        <img class="product_img" src="/photo/coconut-water-collection-image_v2_690x.webp" alt="">
+        <img class="product_img coco-hover" src="/photo/coconut-water-collection-image_v2_690x.webp" onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this)">
     </article>
     <article class="product card sparkling">  
         <div class="product-body">
             <h3 class="product-name h3-sparkling">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br> Coconut Water
+                Thirsty Buddha <sup id="sup-style">R</sup> <br> Sparkling Coconut Water
             </h3>
             <button class="btn  btn-sparkling">SHOP NOW</button>
         </div>  
-        <img class="product_img" src="/photo/sparkling.webp" alt="">
+        <img class="product_img sparkling-hover" src="/photo/sparkling.webp" alt="">
     </article>
     <article class="product card soda">  
         <div class="product-body">
             <h3 class="product-name h3-soda">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br> Coconut Water
+                Thirsty Buddha <sup id="sup-style">R</sup> <br>Soda
             </h3>
             <button class="btn btn-soda">SHOP NOW</button>
         </div>  
-        <img class="product_img" src="/photo/Soda_Collection_Image_Inc_New_Cream_Soda_690x.webp" alt="">
+        <img class="product_img soda-hover" src="/photo/Soda_Collection_Image_Inc_New_Cream_Soda_690x.webp" alt="">
     </article>
     <article class="product card bars">  
         <div class="product-body">
             <h3 class="product-name h3-bars">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br>Coconut Water
+                Thirsty Buddha <sup id="sup-style">R</sup> <br>Bars
             </h3>
             <button class="btn btn-bars">SHOP NOW</button>
         </div>  
-        <img class="product_img" src="/photo/bars.webp" alt="">
+        <img class="product_img bars-hover" src="/photo/bars.webp" alt="">
     </article>
     
 </section>
@@ -150,7 +150,11 @@
 
 <!-- footer section starts here -->
  <footer>
+<div class="footer-upper">
+
+<div class="footer-logo-style">
 <img class="logo-footer" src="/photo/logo_rounded_340x.webp" alt="">
+</div>
 <div class="footer-headline">
     <h3 class="h3-footer">
         POWERED BY <span>PLANTS</span>.<br>
@@ -164,11 +168,53 @@
     </p>
     <input class="input-footer" type="email" placeholder="Email address"> <button class="btn btn-footer">SUBSCRIBE</button>
     <h6 class="h6-footer">
-        By subscribing to our newsletter you understand and accept that we may share your information with vendors or other third parties who perform services on our behalf. The personal information collected may be stored, processed, and transferred to a country or region outside of Quebec. Please read our privacy policy for more details.
+        By subscribing to our newsletter you understand and accept that we may share your information with vendors or other third parties who perform services on our behalf. The personal information collected may be stored, processed, and transferred to a country or region outside of Quebec. Please read our <u><a href="https://buddhabrands.ca/policies/privacy-policy">privacy policy</a> </u> for more details.
+        
     </h6>
 </div>
+</div>
+<div class="footer-list">
+<div class="shop-footer hidden">
+    <h3 class="h3-footer ">
+        Shop
+    </h3>
+    <div class="footer-link">
+
+    
+    <a href="#">Thirsty Buddha <sup id="sup-style">R</sup> Coconut Water</a>
+    <a href="#">Thirsty Buddha <sup id="sup-style">R</sup> Sparkling Coconut Water</a>
+    <a href="#">Thirsty Buddha <sup id="sup-style">R</sup> Soda</a>
+    <a href="#">Thirsty Buddha <sup id="sup-style">R</sup> Bars</a>
+    <a href="#">Shop All</a>
+   </div>
+</div>
+<div class="support hidden">
+    <h3 class="h3-footer">
+        Support
+    </h3>
+    <div class="footer-link">
+
+    
+    <a href="#">Contact</a>
+    <a href="#">Wholesale</a>
+    <a href="#">FAQs</a>
+    <a href="#">Shipping & Returns</a>
+    <a href="#">Refund Policy</a>
+ </div>
+</div>
+<div class="learn hidden">
+     <h3 class="h3-footer">
+        Learn
+     </h3>
+     <div class="footer-link">
+     <a href="#">Our Story</a>
+     <a href="#">Sustainability</a>
+     <a href="#">Recipes</a>
+    </div>
+</div>
+
 <div class="social-footer">
-    <h3>Join,share & Inspire</h3>
+    <h3 class="h3-footer">Join,share & Inspire</h3>
 
     <div class="social-links">
 
@@ -183,13 +229,20 @@
 </h4>
 <h4 class="h4-footer-address">Montreal,Quebec H2N 2E3</h4>
 <a href="#">hello@buddhabrands.com</a><br>
-<button class="btn footer-btn">WHERE TO BUY</button>
+
+</div>
+<div class="buy-footer">
+    <button class="btn footer-btn">WHERE TO BUY</button>
+</div>
 </div>
 <div class="wavy">
 
 </div>
 <div class="footer-end">
-    &copy 2024, Temple Lifestyle Inc.
+    <div class="footer-copy-right col-6">
+        &copy 2024, Temple Lifestyle Inc.
+    </div>
+    
     <a href="#">privacy Policy</a>
     <a href="#">Terms & Conditions</a>
     <a href="#">Data Requests</a>
@@ -198,5 +251,8 @@
 </footer>
 
 <!-- footer section ends here -->
+
+
+<script src="dynamic.js"></script>
 </body>
 </html>
