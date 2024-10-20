@@ -8,6 +8,7 @@
 .navigation-bar
 {
     background-color: rgb(203, 237, 252);
+    
 }
 .nav-head
 {
@@ -129,13 +130,13 @@ font-size: 19px;
 }
 
 
-.img-container
+/* .img-container
 {
-    position: relative;
+    /* position: relative; */
     /* width: 300px; */
     /* display: flex; */
     
-} 
+ 
 /* .animation
 {
     position: absolute;
@@ -154,25 +155,38 @@ font-size: 19px;
     
     text-align: center;
     height: 90vh;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     padding-left:10%;
     padding-top: 15%;
     width: 90%;
     justify-content: center;
-    border-radius:25px;
-    
+    border-radius:25px;   
 }
 
 .backDesign
 {
-    width: 96%; 
+    width: 108%; 
      height: 110vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
+     position: absolute;
+     margin-left: -99px;
 }
+.backDesign-footer
+{
+    width: 108%; 
+     height: 110vh;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+     position: absolute;
+      
+     /* margin-left: -9px; */
+}
+
 #btn
 {
     text-align: center;
@@ -464,6 +478,8 @@ background-color: rgb(150, 216, 242);
 
 /* products sections ends here */
 
+/*footer section starts here */
+
 footer
 {
     text-align: center;
@@ -473,21 +489,33 @@ footer
 
 .logo-footer
 {
-    height: 50vh;
-    width: 50vh;
+    height: 70vh;
+    width: 70vh;
     margin: 65px;
-    background-image: url(/photo/Mandala_v2_o.svg);
+    /* background-image: url(/photo/Mandala_v2_o.svg); */
+    padding: 5rem ;
+    /* border: 1px solid ; */
+    /* position: absolute; */
+    
+}
+.footer-back
+{
+    position: absolute;
+    width: 90vh;
+    height: 80vh;
+    margin-top: 30px;
 }
 
 .input-footer
 {
-    width: 90%;
+    width: 96%;
     height: 12vh;
     border-radius: 20px;
     border: none;
     padding: 1% 2%;
     font-size: 20px;
-    
+    align-items: left;
+    margin-left: 20px;
     
     
 }
@@ -500,6 +528,7 @@ footer
 .h3-footer
 {
     font-size: 28px;
+    padding: .5rem 0;
 }
 .h3-footer span
 {
@@ -514,25 +543,47 @@ footer
 }
 .des-footer
 {
-    margin-left: 18px;
+    margin-left: 20px;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
+    padding: .5rem 0;
 }
 .h6-footer
 {
-    margin: 0 15px;
+    margin: 20px;
     padding: 10px;
+    text-align: left;
 }
-.social-footer
+.footer-link a{
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+.footer-link a:hover{
+    color: #062c6f;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: 0.7s all;
+}
+/* .social-footer
 {
-    /* margin-top: 20px; */
-}
+    margin-top: 20px;
+} */
 
 .social-links{
     margin:20px;
     
     
+}
+.social-links .insta:hover{
+    color: lightblue;
+}
+.social-links .face:hover{
+    color: lightblue;
+}
+.social-links .twitt:hover{
+    color: lightblue;
 }
 .social-links .insta
 {
@@ -559,17 +610,17 @@ footer
     color: white;
 }
 
-/* span{
-    color: rgb(201, 38, 38);
-    
-} */
 .social-footer h3
 {
     margin-top: 20px;
 }
+
 .footer-btn
 {
     background-color: #062c6f;
+    padding: 1rem 2.5rem;
+    align-items: left;
+    margin-left: 20px;
 }
 .wavy
 {
@@ -600,9 +651,23 @@ footer
     display: flex;
     flex-direction: column;
     padding: .5rem;
+
 }
 .footer-end a{
     padding: 1rem;
+}
+
+.footer-end-link {
+display: flex;
+flex-direction: column;
+}
+.footer-end a:hover{
+    color: #062c6f;
+    background-color: #fff;
+    border-radius: 25px;
+    transition: .7s all;
+    padding: .5rem .5rem;
+    
 }
 
 

@@ -130,11 +130,34 @@ body
 
 .backDesign
 {
-    width: 100vh; 
+    width: 120vh; 
+     height: 103vh;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+     margin-left: -299px;
+}
+/* .backDesign */
+/* {
+    width: 108%; 
      height: 110vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
+     position: absolute;
+     margin-left: -99px;
+} */
+
+.backDesign-footer
+{
+    width: 108%; 
+     height: 110vh;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+     position: absolute;
+     display: block;
+     /* margin-left: -9px; */
 }
 
 .product-body
@@ -166,6 +189,32 @@ body
 .footer-headline
 {
     text-align: left;
+    margin-top: 10%;
+}
+.footer-back
+{
+    position: absolute;
+    width: 90vh;
+    height: 80vh;
+    margin-top: 30px;
+    padding: 1rem;
+}
+.social-footer h3
+{
+    margin-top: 0px;
+}
+
+.social-links .insta
+{
+    padding: .5rem;
+}
+.social-links .face
+{
+    padding: .5rem;
+}
+.social-links .twitt
+{
+    padding: .5rem;
 }
 
 .footer-list
@@ -174,9 +223,18 @@ body
     justify-content: space-around;
 
 }
+.input-footer
+{
+    width: 80%;
+}
 .h3-footer
 {
     text-align: left;
+    margin-left: 20px;
+}
+.h6-footer
+{
+    width: 80%;
 }
 .footer-link
 {
@@ -191,6 +249,10 @@ body
     font-weight: 400;
     padding: .5rem 0;
 }
+.footer-btn
+{
+    margin-top: 0px;
+}
 
 .footer-end
 {
@@ -203,8 +265,14 @@ body
 {
     text-align: left;
     margin-left: 40px;
+    padding-top: 1rem;
 }
 
+.footer-end-link
+{
+    display: flex;
+    flex-direction: row;
+}
 
 
 /* footer ends here */
