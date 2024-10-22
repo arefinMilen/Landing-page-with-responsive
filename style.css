@@ -174,6 +174,7 @@ font-size: 19px;
      border-radius: 25px;
      position: absolute;
      margin-left: -99px;
+     
 }
 .backDesign-footer
 {
@@ -545,6 +546,7 @@ footer
 {
     font-size: 28px;
     padding: .5rem 0;
+    /* text-align: center; */
 }
 .h3-footer span
 {
@@ -581,6 +583,12 @@ footer
     padding: 0 20px;
     border-radius: 20px;
     transition: 0.7s all;
+}
+.footer-email-address
+{
+    padding: 1rem 0;
+    display: block;
+     
 }
 /* .social-footer
 {
@@ -686,6 +694,37 @@ flex-direction: column;
     
 }
 
+/* menu click button design starts here */
+
+.nav-menupage
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu-btn button
+{
+    padding: .5rem 2.5rem;
+    border-radius: 20px;
+    margin-left: 35%;
+    border: none;
+    background-color: aqua;
+}
+.nav-menu-link
+{
+display: flex;
+flex-direction: column;
+}
+.img-menuicon{
+    width: 45vh;
+    height: 45vh;
+    margin-left: 30%;
+}
+.fa-times
+{
+    padding-top: .5rem;
+}
+/* menu click button design ends here */
+
 
 .products{
     grid-template-columns: repeat(4, minmax(0,1fr));
@@ -705,6 +744,23 @@ flex-direction: column;
     {
         display: none;
     }
+    /* .nav_link
+    {
+position: fixed;
+width: 100%;
+height: 100vh;
+background: wheat;
+top: 80px;
+display: block;
+left: -100%;
+text-align: center;
+transition: all .5s;
+
+    }
+    #btn:checked ~ .nav_link{
+        left: 0;
+    }
+      */
 }
 @media (max-width:575px)
 {

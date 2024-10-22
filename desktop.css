@@ -221,6 +221,7 @@ body
 {
     display: flex;
     justify-content: space-around;
+    
 
 }
 .input-footer
@@ -230,11 +231,20 @@ body
 .h3-footer
 {
     text-align: left;
-    margin-left: 20px;
+    
+}
+.h4-footer-address{
+    text-align: left;
 }
 .h6-footer
 {
     width: 80%;
+}
+.footer-email-address
+{
+    padding: 1rem 0;
+    display: none;
+     
 }
 .footer-link
 {
