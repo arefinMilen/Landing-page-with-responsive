@@ -14,6 +14,8 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
      <link rel="shortcut icon" href="./photo/logo.png" type="x-icon"  >
+     <!-- aos cdn  -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Shop Plant-Based Snacks and Bevarages | Buddha Brands</title>
 </head>
 <body>
@@ -54,12 +56,15 @@
             <a href="index.html" class="nav_link content-right">
                 <span><i class="fa-solid fa-bag-shopping"></i></span>
             </a>
-            <a href="menu-icon.html" class="nav_link content-right">
+            <input type="checkbox" id="check">
+            <label for="check">
+            <a href="#" class="nav_link content-right">
                 <span><i class="fas fa-bars fa-2x" id="menu-icon btn"></i></span>
             </a>
-            <!-- <a href="index.html" class="nav_link content-right">
+            <a href="#" class="nav_link content-right">
                 <span><i class="fas fa-times fa-2x" id="menu-icon cancel"></i></span>
-            </a> -->
+            </a>
+        </label>
 
        </div>
      
@@ -109,11 +114,17 @@
                 Thirsty Buddha <sup id="sup-style">R</sup> <br> Coconut Water
             </h3>
             <button class="btn btn-coco">SHOP NOW</button>
-         
-        <div class="product-imges">
-        <img class="product_img coco-hover" src="/photo/coconut-water-collection-image_v2_690x.webp">
+            
+        <!-- <div class="product-imges"> -->
+            <div class="image-container">
+        <img class="product_img coco-hover default-image" src="/photo/coconut-water-collection-image_v2_690x.webp">
         <!-- <img class="back-img-hover" src="/photo/Mandala_v2_o.svg" alt="back-image-hover-effect"> -->
+         <img class="hover-image" src="/photo/coconut-water-hover_250x.avif">
+         <div class="rotating-background">
+            
+         </div> 
     </div>
+</div>
 </div> 
     </article>
     <article class="product card sparkling">  
@@ -123,7 +134,10 @@
             </h3>
             <button class="btn  btn-sparkling">SHOP NOW</button>
         </div>  
-        <img class="product_img sparkling-hover" src="/photo/sparkling.webp" alt="">
+        <div class="image-container">
+        <img class="product_img sparkling-hover default-image"  src="/photo/sparkling.webp" alt="">
+        <img class="hover-image" src="/photo/sparkling-coco-water-hover_330x.avif" alt="">
+    </div>
     </article>
     <article class="product card soda">  
         <div class="product-body">
@@ -132,7 +146,10 @@
             </h3>
             <button class="btn btn-soda">SHOP NOW</button>
         </div>  
-        <img class="product_img soda-hover" src="/photo/Soda_Collection_Image_Inc_New_Cream_Soda_690x.webp" alt="">
+        <div class="image-container">
+        <img class="product_img default-image" src="/photo/Soda_Collection_Image_Inc_New_Cream_Soda_690x.webp" alt="">
+        <img class="hover-image" src="/photo/Soda-hover_330x.avif" alt="">
+    </div>
     </article>
     <article class="product card bars">  
         <div class="product-body">
@@ -141,7 +158,10 @@
             </h3>
             <button class="btn btn-bars">SHOP NOW</button>
         </div>  
-        <img class="product_img bars-hover" src="/photo/bars.webp" alt="">
+        <div class="image-container">
+        <img  class="product_img bars-hover default-image" src="/photo/bars.webp" alt="">
+        <img class="hover-image" src="/photo/bars-hover.avif" alt="">
+        </div>
     </article>
     
 </section>

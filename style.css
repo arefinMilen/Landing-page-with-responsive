@@ -320,13 +320,24 @@ section .wave
     box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
 }
 
-.card:hover
+ .card:hover
 {
-    
+    /* position: absolute; */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    /* background: url(/photo/Mandala_v2_o.svg) no-repeat center center; */
+    /* background-size: cover;
+    transition: transform 1s ease; /* Smooth rotation */
+    /* z-index: -1; */ 
     background-image: url(/photo/Mandala_v2_o.svg); 
-    /* transform: rotate(360deg) ; */
     
     
+    
+}   
+img:hover background-image{
+    transform: rotate(360deg) ;
 }
 
 .product_img
@@ -336,7 +347,93 @@ section .wave
     /* position: relative; */
    
 }
+#img2
+{
+    width: 100%;
+    height: 15rem;
+}
+.product-imges
+{
+    position: relative;
+}
+.product-imges img{
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
 
+}
+/* .product-imges #img1
+{
+    display: block;
+}
+.product-imges #img1:hover
+{
+    display: none;
+}
+.product-imges #img2
+{
+    /* display: none; */
+/* }
+.product-imges #img2:hover{
+    opacity: 0;
+    cursor: pointer;
+    width: 120%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+
+} */ 
+/* .product-imges #img1:hover{
+    display: block;
+} */
+
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust as per your image size */
+    height: 400px; /* Adjust as per your image size */
+     
+}
+.default-image,
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 100%;
+     
+    transition: opacity 0.5s ease;
+}
+
+.hover-image {
+    opacity: 0;
+     
+}
+
+.image-container:hover .hover-image {
+    opacity: 1;
+    
+}
+
+.image-container:hover .default-image {
+    opacity: 0;
+}
+
+/* Background image */
+/* .rotating-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/photo/Mandala_v2_o.svg) no-repeat center center;
+    background-size: cover;
+    transition: transform 1s ease; /* Smooth rotation */
+    /* z-index: -1; Ensure it stays behind the images */
+/* } */ 
+/* Rotation effect on hover */
+/* .image-container:hover .rotating-background {
+    transform: rotate(360deg);
+} */
 .product-body
 {
     padding: .5rem;
@@ -744,6 +841,10 @@ flex-direction: column;
     {
         display: none;
     }
+
+    /* menu-icon.html{
+      display: block;
+    } */
     /* .nav_link
     {
 position: fixed;
