@@ -8,4 +8,10 @@
 //     {
 //         image.src = '/photo/coconut-water-hover.jpg';
 //     }
-// }
+// 
+gsap.to(".gsap-nav",{
+    x:-1200,
+    duration:7,
+    delay:0.5,
+    repeat:-1,
+})
