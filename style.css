@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
 
 .navigation-bar
 {
@@ -326,7 +329,11 @@ section .wave
 }
 
 .card:hover {
-    box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
+box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
+
+}
+.card:hover .product-name{
+    color: white;
 }
 
  .card:hover
@@ -342,9 +349,9 @@ section .wave
     /* z-index: -1; */ 
     background-image: url(/photo/Mandala_v2_o.svg); 
     
-    
-    
-}   
+}  
+
+
 img:hover background-image{
     transform: rotate(360deg) ;
 }
@@ -463,10 +470,10 @@ img:hover background-image{
     font-size: 20px;
     font-weight: 1000;
 }
-.h3-coco:hover
+/* .h3-coco:hover
 {
     color:white;
-}
+} */
 
 .h3-sparkling
 {
@@ -474,41 +481,42 @@ img:hover background-image{
     font-size: 20px;
     font-weight: 1000;
 }
-.h3-sparkling:hover
+/* .h3-sparkling:hover
 {
     color: white;
-}
+} */
 .h3-soda
 {
     color: rgb(174, 5, 5);
     font-size: 20px;
     font-weight: 1000;
 }
-.h3-soda:hover
+/* .h3-soda:hover
 {
     color: white;
-}
+} */
 .h3-bars
 {
     color: #062c6f;
     font-size: 20px;
     font-weight: 1000;
 }
-.h3-bars:hover
+/* .h3-bars:hover
 {
     color: white;
-}
+} */
 
-#sup-style
+.sup-style
 {
     border: 1px solid black;
     border-radius: 50%;
     font-size: 8px;
     padding: 1px;
 }
-#sup-style:hover
+.card:hover .sup-style
 {
     border: 1px solid white;
+    border-color: white;
 }
 
 .btn{
@@ -527,7 +535,7 @@ img:hover background-image{
 {
     background-color: #062c6f;
 }
-.btn-coco:hover
+.card:hover .btn-coco
 {
     background-color: white;
     color: #062c6f;
@@ -536,7 +544,7 @@ img:hover background-image{
 {
     background-color: green;
 }
-.btn-sparkling:hover
+.card:hover .btn-sparkling
 {
     color: green;
     background-color: #fff;
@@ -545,7 +553,7 @@ img:hover background-image{
 {
     background-color: rgb(214, 20, 20);
 }
-.btn-soda:hover
+.card:hover .btn-soda
 {
     background-color: white;
     color:rgb(214, 20, 20) ;
@@ -554,7 +562,7 @@ img:hover background-image{
 {
     background-color: #062c6f;
 }
-.btn-bars:hover
+.card:hover .btn-bars
 {
     background-color:white ;
     color:#062c6f ;
@@ -921,6 +929,7 @@ flex-direction: column;
     #menu-icon
     {
         display: block;
+         
 
     }
     .hidden
@@ -948,6 +957,20 @@ transition: all .5s;
         left: 0;
     }
       */
+      .nav-head{
+        width: auto;
+        
+       }
+   .navigation-bar{
+    width: auto;
+   }
+   .section-wave{
+    width: auto;
+   }
+   header{
+    width: auto;
+   }
+      
 }
 @media (max-width:575px)
 {
