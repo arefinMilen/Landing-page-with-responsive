@@ -16,11 +16,12 @@ gsap.to(".gsap-nav",{
     repeat:-1,
 })
 
-const menuIcon = document.getElementById("menu-btn")
-const menu = document.getElementById("menu")
+const menuIcon = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
 
-menuIcon.addEventListener("click",()=>
+menuIcon.addEventListener("click", ()=>
 {
+    console.log("button is clicked")
     if(menu.className == "hidden")
     {
         menu.classList.remove("hidden");

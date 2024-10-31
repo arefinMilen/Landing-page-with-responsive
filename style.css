@@ -405,7 +405,7 @@ img:hover background-image{
 
 .image-container {
     position: relative;
-    width: 300px; /* Adjust as per your image size */
+    width: 96%; /* Adjust as per your image size */
     height: 400px; /* Adjust as per your image size */
      
 }
@@ -414,8 +414,9 @@ img:hover background-image{
     position: absolute;
     top: 0;
     left: 0;
-    width: 110%;
+    width: 100%;
     height: 100%;
+     
      
     transition: opacity 0.4s ease-out;
 }
@@ -990,7 +991,19 @@ transition: all .5s;
     left: 0;
     transform: translate(-50%,-50%);
     } */
+    body {
+        overflow-x: hidden;
+    }
    html{
     width: 100%;
    }
+}
+
+@media (max-width:320px)
+{
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+
 }
