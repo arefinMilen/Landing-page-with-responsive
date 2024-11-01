@@ -295,13 +295,14 @@ font-size: 19px;
 
 .backDesign
 {
-    width: 108%; 
-     height: 110vh;
+    width: 95%; 
+     height: 100vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
      position: absolute;
-     margin-left: -99px;
+     margin-left: -75px;
+   
      
 }
 .backDesign-footer
@@ -1096,6 +1097,11 @@ transition: all .5s;
         overflow-x: hidden;
       };
 }
+/* @media (max-width:768) {
+    body{
+        overflow-x:hidden ;
+    }
+} */
 @media (max-width:575px)
 {
      

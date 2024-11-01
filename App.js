@@ -17,7 +17,7 @@ menuIcon.addEventListener("click", ()=>{
     }
     else{
         menu.classList.add("hidden");
-        // console.log("button is clicked")
+        console.log("button is clicked")
     }
     // console.log("button is clicked")
 });
