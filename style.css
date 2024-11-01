@@ -72,7 +72,76 @@ label #cancel
 {
     font-size: 10px;
 }
+.button-container {
+    /* display: flex; */
+    gap: 20px;
+}
 
+.tooltip-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1em;
+    color: #062c6f;
+    background-color: rgb(203, 237, 252);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+
+/* Tooltip styling */
+.tooltip-button .tooltip-text {
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+    color: #062c6f;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.9em;
+    z-index: 1;
+    
+}
+.tooltip-button .tooltip-text li{
+    padding: 10px 0;
+    list-style: none;
+
+    
+}
+.tooltip-button .tooltip-text li:hover{
+    border: 1px ;
+    background-color: rgb(203, 237, 252);
+    margin: 4px;
+    border-radius: 20px;
+    
+}
+
+/* Show the tooltip when hovering */
+.tooltip-button:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Positioning arrows for tooltips */
+.tooltip-button .tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
 img{
     height: 10vh;
     width: 10vh;
@@ -258,8 +327,8 @@ section .wave
  left: 0;
  width: 100%;
  height: 100px;
- background: url(/photo/wave.png);
- background-size: 1000px 100px;
+ background: url(/Images/wave.png);
+ background-size: 1000px 100px; 
 }
 
 section .wave
@@ -616,7 +685,7 @@ background-color: rgb(11, 127, 173);
     padding: 20px 30px;
     border-radius: 25px;
     background-color: #062c6f;
-    margin-left: 220px ;
+    margin-left: 50px ;
     border: none;
     
     
@@ -927,6 +996,9 @@ flex-direction: column;
     .products{
         grid-template-columns: repeat(2, minmax(0,1fr));
     }
+    .probtn{
+        margin-left: 220px;
+    }
     #menu-icon
     {
         display: block;
@@ -971,13 +1043,24 @@ transition: all .5s;
    header{
     width: auto;
    }
-      
+     
+      footer{
+        overflow-x: hidden;
+      }
 }
 @media (max-width:575px)
 {
      
     .products{
         grid-template-columns: repeat(1, minmax(0,1fr));
+    }
+    .product-btn{
+        width: 100%;
+        height: 80%;
+        margin-left: -90px;
+    }
+    .probtn{
+        margin-left: 180px;
     }
     /* .footer-upper{
         width: 95%;
@@ -997,6 +1080,19 @@ transition: all .5s;
    html{
     width: 100%;
    }
+   /* .footer-logo-style{
+    margin-left: -17%;
+   } */
+   .logo-footer{
+    width: 80%;
+    height: 50%;
+   }
+.input-footer{
+    width: 80%;
+}
+body{
+    overflow-x: hidden;
+  };
 }
 
 @media (max-width:320px)
@@ -1005,5 +1101,12 @@ transition: all .5s;
         overflow-x: hidden;
         width:100%;
     }
-
+    .footer-logo-style{
+        margin-left: -47%;
+        height: 50%;
+        width: 30%;
+       }
+       body{
+        overflow-x: hidden;
+      };
 }

@@ -17,7 +17,7 @@
      <!-- aos cdn  -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- bootstrap for css -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <title>Shop Plant-Based Snacks and Bevarages | Buddha Brands</title>
 </head>
 <body>
@@ -42,38 +42,87 @@
      
       
         <div class="nav_link hidden" id="menu"> 
-            <a id="menu" href="#">Products</a>
-            <a id="menu" href="#">Learn</a>
-            <a id="menu" href="#">Where to Buy</a>
-            <a id="menu" href="#">Contact</a>
+            
+            <a class="button-container tooltip-button"  href="#">Products
+                <!-- <span class="tooltip-text">
+
+                    <article class="product card coco ">  
+                        <div class="product-body">
+                            <h3 class="product-name h3-coco">
+                                Thirsty Buddha <sup id="sup-style">R</sup> <br> Coconut Water
+                            </h3>
+                            <button class="btn btn-coco">SHOP NOW</button>
+                            
+                         <div class="product-imges"> -->
+                            <!-- <div class="image-container">
+                        <img class="product_img coco-hover default-image" src="/Images/coconut-water-collection-image_v2_690x.webp">
+                         <img class="back-img-hover" src="/Images/Mandala_v2_o.svg" alt="back-image-hover-effect"> -->
+                         <!-- <img class="hover-image" src="/Images/coconut-water-hover_250x.avif">
+                         <div class="rotating-background">
+                            
+                         </div> 
+                    </div>
+                </div>
+                </div> 
+                    </article>
+                    
+                </span> --> 
+
+            </a>
+
+
+            <a class="button-container tooltip-button"  href="#">Learn
+            <span class="tooltip-text">
+                    <ul class="tooltip-list">
+                    <li>Our Story</li>
+                    <li>Sustainability</li>
+                    <li>Recipes</li>
+                    </ul>     
+            </span>
+            
+        </a>
+            <a  href="#">Where to Buy</a>
+            <a  href="#">Contact</a>
              
         </div>
         
       <div class="nav-style">
 
-         <a href="index.html" class="nav_link     content-right hidden" id="menu">
+         <a href="index.html" class="nav_link     content-right hidden">
             <select name="lang" id="lang">
-                <option value="eng"><img src="" alt="">🍁EN</option>
-                <option value="fr"><img src="" alt="">🍁FR</option>
+                <option value="eng">🍁EN</option>
+                <option value="fr">🍁FR</option>
             </select>
          </a>
+         <!-- <li class="nav-item">
+            <div id="google_translate_element"></div>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: "en,fr", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+            </script>
+            
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </li> -->
           <a href="index.html" class="nav_link content-right">
-            <span><i class="fa-regular fa-user"></i></span> </a>
+            <span><i class="fa-regular fa-user"></i></span></a>
             <a href="index.html" class="nav_link content-right">
                 <span><i class="fa-solid fa-bag-shopping"></i></span>
             </a>
-            <input type="checkbox" id="check">
+            <!-- <input type="checkbox" id="check"> -->
             <label for="check">
-            <a href="#" class="nav_link content-right">
-                <span><i class="fas fa-bars fa-2x" id="menu-btn"></i></span>
-            </a>
+            
             <!-- <a href="#" class="nav_link content-right">
                 <span><i class="fas fa-times fa-2x" id="cancel"></i></span>
             </a> -->
+            <a href="#" class="nav_link content-right">
+                <span><i class="fas fa-bars fa-2x" id="menu-btn"></i></span>
+            </a>
         </label>
 
        </div>
-     
+       
      </header>
       <div class="navbar">
 
@@ -117,7 +166,7 @@
     <article class="product card coco">  
         <div class="product-body">
             <h3 class="product-name h3-coco">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br> Coconut Water
+                Thirsty Buddha <sup class="sup-style">R</sup> <br> Coconut Water
             </h3>
             <button class="btn btn-coco">SHOP NOW</button>
             
@@ -148,7 +197,7 @@
     <article class="product card soda">  
         <div class="product-body">
             <h3 class="product-name h3-soda">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br>Soda
+                Thirsty Buddha <sup class="sup-style">R</sup> <br>Soda
             </h3>
             <button class="btn btn-soda">SHOP NOW</button>
         </div>  
@@ -160,7 +209,7 @@
     <article class="product card bars">  
         <div class="product-body">
             <h3 class="product-name h3-bars">
-                Thirsty Buddha <sup id="sup-style">R</sup> <br>Bars
+                Thirsty Buddha <sup class="sup-style">R</sup> <br>Bars
             </h3>
             <button class="btn btn-bars">SHOP NOW</button>
         </div>  
@@ -289,8 +338,10 @@
 <!-- footer section ends here -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- bootstrap for js -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> -->
+
+
 <script src="App.js"></script>
+<!-- bootstrap for js -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 </body>
 </html>

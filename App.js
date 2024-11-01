@@ -1,14 +1,4 @@
-// function changeImage(x,image)
-// {
-//     if(x == 1)
-//     {
-//         image.src = 'coconut-water-collection-image_v2_690x.webp';
-//     }
-//     if(x == 2)
-//     {
-//         image.src = '/photo/coconut-water-hover.jpg';
-//     }
-// 
+// using animation for navbar 
 gsap.to(".gsap-nav",{
     x:-1200,
     duration:7,
@@ -16,13 +6,14 @@ gsap.to(".gsap-nav",{
     repeat:-1,
 })
 
+// responsive menubar 
 const menuIcon = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 
 menuIcon.addEventListener("click", ()=>
 {
     console.log("button is clicked")
-    if(menu.className == "hidden")
+    if(menu.className ==="hidden")
     {
         menu.classList.remove("hidden");
     }
