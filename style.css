@@ -42,10 +42,10 @@ body {
     background-color: rgb(8, 159, 219);
 }
 
-#menu-icon
+/* #menu-icon
 {
 display: none;
-}
+} */
 
 label #menu-btn,
 label #cancel
@@ -124,6 +124,53 @@ label #cancel
     border-radius: 20px;
     
 }
+.tooltip-button .tooltip-display
+{
+    display: flex;
+    width: 1400px;
+    justify-content: space-around;
+    margin-left: 220px;
+
+}
+  .tooltip-display .coco
+{
+background-color: rgb(203, 237, 252);
+
+}
+.tooltip-display .coco:hover
+{
+background-color: skyblue;
+
+}
+  .tooltip-display .sparkling
+{
+    background-color: lemonchiffon;;
+
+}
+.tooltip-display .sparkling:hover
+{
+background-color: green;
+}
+  .tooltip-display .soda
+{
+    background-color: lightcoral;
+
+}
+
+.tooltip-display .soda:hover
+{
+background-color: darkred;
+}
+  .tooltip-display .bars
+{
+    background-color: rgb(150, 216, 242);
+
+}
+.tooltip-display .bars:hover
+{
+background-color: rgb(11, 127, 173);
+}
+
 
 /* Show the tooltip when hovering */
 .tooltip-button:hover .tooltip-text {
@@ -137,10 +184,10 @@ label #cancel
     position: absolute;
     bottom: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-70%);
     border-width: 5px;
     border-style: solid;
-    border-color: #333 transparent transparent transparent;
+    border-color: white transparent transparent transparent;
 }
 img{
     height: 10vh;
@@ -416,7 +463,7 @@ box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
     /* background-size: cover;
     transition: transform 1s ease; /* Smooth rotation */
     /* z-index: -1; */ 
-    background-image: url(/photo/Mandala_v2_o.svg); 
+    background-image: url(/Images/Mandala_v2_o.svg); 
     
 }  
 
@@ -986,12 +1033,12 @@ flex-direction: column;
         display: block;
     }
 
-      #menu{
+/* #menu{
         position: fixed;
         width: 100%;
         height: 100vh;
         top: 80px;
-    }
+    } */
 
     .products{
         grid-template-columns: repeat(2, minmax(0,1fr));
@@ -999,12 +1046,10 @@ flex-direction: column;
     .probtn{
         margin-left: 220px;
     }
-    #menu-icon
+    /* #menu-icon
     {
         display: block;
-         
-
-    }
+    } */
     .hidden
     {
         display: none;
@@ -1047,6 +1092,9 @@ transition: all .5s;
       footer{
         overflow-x: hidden;
       }
+      body{
+        overflow-x: hidden;
+      };
 }
 @media (max-width:575px)
 {
