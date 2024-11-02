@@ -55,6 +55,11 @@ label #cancel
 #check{
     display: none;
 }
+
+#label-check
+{
+    margin-top: -2.4rem;
+}
 .nav-logo
 {
     height: 80px;
@@ -80,7 +85,7 @@ label #cancel
 .tooltip-button {
     position: relative;
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 20px;
     font-size: 1em;
     color: #062c6f;
     background-color: rgb(203, 237, 252);
@@ -207,7 +212,14 @@ li,a,button{
     align-items: center;
     padding: 10px 3%;
     color: rgb(32, 32, 108);
+    
 
+}
+.button-container
+{
+    
+    font-size: 15px;
+    margin: 5px;
 }
 /* .nav-link
 {
@@ -726,10 +738,6 @@ background-color: rgb(11, 127, 173);
 {
     text-align: center;
     justify-content: center;
-     /* top: 50%;
-    left: 50%; */
-    /* translate: (-50%,-50%); */
-    /* position: relative; */
     padding: 20px 30px;
     border-radius: 25px;
     background-color: #062c6f;
@@ -1020,6 +1028,8 @@ flex-direction: column;
 {
     padding-top: .5rem;
 }
+
+
 /* menu click button design ends here */
 
 
@@ -1053,9 +1063,48 @@ flex-direction: column;
     } */
     .hidden
     {
-        display: none;
+    display: none;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: fixed;
+    
+    top: 0;
+    right: 0;
+    width: 300px; /* Adjust width as needed */
+     height: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);  
+    
     }
-
+    .rotate-icon {
+        transition: transform 0.3s ease;
+        transform: rotate(180deg);
+    }
+    /* Visible state of the menu */
+.menu-visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+.tooltip-display.tooltip-text{
+    display: none;
+}
+/* Style for the "Shop All Products" button */
+/* .shop-all-products {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #002f6c;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+} */
     /* menu-icon.html{
       display: block;
     } */

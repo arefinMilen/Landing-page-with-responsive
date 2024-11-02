@@ -14,12 +14,16 @@ menuIcon.addEventListener("click", ()=>{
     if(menu.className ==="hidden"){
         menu.classList.remove("hidden");
         // console.log("button is clicked")
+        // Toggle icon class and rotation
+       
     }
     else{
-        menu.classList.add("hidden");
-        console.log("button is clicked")
+        menu.classList.toggle("hidden");
     }
-    // console.log("button is clicked")
+    menu.classList.toggle("menu-visible");
+    menuIcon.classList.toggle("fa-bars");
+    menuIcon.classList.toggle("fa-times");
+    menuIcon.classList.toggle("rotate-icon");
 });
 
 // Language translations
@@ -35,6 +39,11 @@ const translations = {
         title7:"Thirsty Buddha R Sparkling Coconut Water",
         title8:"Thirsty Buddha R Soda",
         title9:"Thirsty Buddha R Bars",
+        // title10:"POWERED BY PLANTS.",
+        // title11:"FLELED BY PURPOSE.",
+        title12:"Inspiration Delivered to your Inbox!",
+        title13:"Shop",
+        title14:"Support",
         // subtitle1:"Our Story",
         // subtitle2:"Sustainability",
         // subtitle3:"Recipes",
@@ -47,7 +56,9 @@ const translations = {
         description:"Natural plant-Based Snacks and Bevarages",
         description1:"Delicious Taste. Plant-Based. Nothing Artificial.",
         description2:"Shop Plant-Based Bars and Drinks",
-        description3:"Live better with clean & nutritious ingredients!"
+        description3:"Live better with clean & nutritious ingredients!",
+        description4:"Join the Buddha Brands TM Community and get notified of exclusive promotions and discounts, new products, announcements and more.",
+        description5:"By subscribing to our newsletter you understand and accept that we may share your information with vendors or other third parties who perform services on our behalf. The personal information collected may be stored, processed, and transferred to a country or region outside of Quebec. Please read our privacy policy for more details.",
     },
     
 
@@ -63,6 +74,11 @@ const translations = {
         title7:"Eau de coco pe Thirsty Buddha MD",
         title8:"Soda Thirsty Buddha MD",
         title9:"Bars Thirsty Buddha MD",
+        title10:"ALIMENTÉS PARDES PLANTES.",
+        title11:"MOTIVÉS PARNOTRE RAISON D'ÊTRE.",
+        title12:"De l’inspiration distribuée dans votre boîte de réception!",
+        title13:"Magasiner",
+        title14:"Soutien",
         // subtitle1:"Notre histoire",
         // subtitle2:"Durabilite",
         // subtitle3:"Recipes",
@@ -75,7 +91,9 @@ const translations = {
         description:"Boissons et collations naturelles  à base de plantes",
         description1:"Goût délicieux. À base de plantes.Sans aucun élément artificiel.",
         description2:"Magasiner des boissons et des barres à base de plantes",
-        description3:"Vivez mieux avec des ingrédients propres et nutritifs!"
+        description3:"Vivez mieux avec des ingrédients propres et nutritifs!",
+        description4:"De l’inspiration distribuée dans votre boîte de réception!",
+        description5:"Rejoignez la communauté Buddha Brands et économisez 10 % sur votre première commande! Soyez informé des promotions et remises exclusives, des nouveaux produits, des annonces et plus.",
         
         
     },
@@ -97,6 +115,11 @@ function changeLanguage() {
     document.getElementById("title7").innerText = translations[lang].title7;
     document.getElementById("title8").innerText = translations[lang].title8;
     document.getElementById("title9").innerText = translations[lang].title9;
+    // document.getElementById("title10").innerText = translations[lang].title10;
+    // document.getElementById("title11").innerText = translations[lang].title11;
+     document.getElementById("title12").innerText = translations[lang].title12;
+     document.getElementById("title13").innerText = translations[lang].title13;
+     document.getElementById("title14").innerText = translations[lang].title14;
     // document.getElementById("subtitle1").innerText = translations[lang].subtitle1;
     // document.getElementById("subtitle2").innerText = translations[lang].subtitle2;
     // document.getElementById("subtitle3").innerText = translations[lang].subtitle3;
@@ -110,5 +133,8 @@ function changeLanguage() {
     document.getElementById("description1").innerText = translations[lang].description1;
     document.getElementById("description2").innerText = translations[lang].description2;
     document.getElementById("description3").innerText = translations[lang].description3;
+    document.getElementById("description4").innerText = translations[lang].description4;
+    document.getElementById("description5").innerText = translations[lang].description5;
+
     
 }
