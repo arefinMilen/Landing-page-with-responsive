@@ -19,7 +19,7 @@ body
 
 .nav-head
 {
-    height: 10vh;
+    height: 7.5vh;
     width: 100%;
     background-color: rgb(32, 32, 108);
     color: white;
@@ -81,19 +81,23 @@ body
 .navbar
 {
     display: flex;
+    padding: 0% 7%;
+
 }
 .nav-lower{
     
     justify-content: left;
     text-align: left;
-    padding-top: 8%;
-    padding-left: 3%;
+    padding-top: 14%;
+    padding-left: 6%;
+    
     font-size: 28px;
     font-weight: 1500;
 }
 .navlower-h3{
     font-size: 26px;
     font-weight: 500;
+    
     }
     
 .nav-lower .btn
@@ -101,9 +105,8 @@ body
      
     text-align: left;
     padding: 0%;
-    margin-left: 0;
-    
-    
+    margin-left: 0; 
+    margin-top: 50px;
 }
 
  .img-container
@@ -117,12 +120,12 @@ body
 {
     
     text-align:center;
-    height:90vh;
+    height:100vh;
     position:absolute;
     top:0;
     left:0;
     padding-left:10%;
-    padding-top:15%;
+    padding-top:25%;
     width:90vh;
     justify-content: center;
     
@@ -136,6 +139,7 @@ body
      justify-content: center;
      border-radius: 25px;
      margin-left: -299px;
+     margin-top: 30px;
 }
 /* .backDesign */
 /* {

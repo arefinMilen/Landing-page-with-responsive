@@ -10,14 +10,15 @@ body {
 
 .navigation-bar
 {
-    background-color: rgb(203, 237, 252);
+    background-color: #d1f5ff;
+    /* height: 210vh; */
     
 }
 .nav-head
 {
-    height: 8vh;
+    height: 7.5vh;
     width: 100%;
-    background-color: rgb(32, 32, 108);
+    background-color: #002d72;
     color: white;
     text-align: center;
     justify-content: center;
@@ -27,7 +28,7 @@ body {
 .btn-head
 {
     color: rgb(32, 32, 108);
-    background-color: skyblue;
+    background-color: #74d1ea;
     border: none;
     border-radius: 24px;
     padding: 4px 8px;
@@ -39,7 +40,7 @@ body {
 }
 .btn-head:hover{
     color: white;
-    background-color: rgb(8, 159, 219);
+    background-color:#0076a8;
 }
 
 /* #menu-icon
@@ -58,18 +59,18 @@ label #cancel
 
 #label-check
 {
-    margin-top: -2.4rem;
+    margin-top: -2.1rem;
 }
 .nav-logo
 {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    border: 8px solid #062c6f;
+    border: 8px solid #002d72;
     size: 3.5rem;
     font-size: 2rem;
     background-color: white;
-    color: #062c6f;
+    color: #002d72;
     /* padding: 0 5px; */
     margin:5px;
 }
@@ -87,8 +88,8 @@ label #cancel
     display: inline-block;
     padding: 10px 20px;
     font-size: 1em;
-    color: #062c6f;
-    background-color: rgb(203, 237, 252);
+    color: #002d72;
+    background-color: #d1f5ff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -102,7 +103,7 @@ label #cancel
     visibility: hidden;
     width: 220px;
     background-color: white;
-    color: #062c6f;
+    color: #002d72;
     text-align: center;
     padding:5px;
     border-radius: 10px;
@@ -251,25 +252,32 @@ li,a,button{
 .nav-lower
 {
     text-align: center;
-    margin-bottom: 5px;
-    color: rgb(32, 32, 108);
+    /* margin-bottom: 1px; */
+    color: #002d72;
     font-size: 25px;
     font-weight: 1500;
     width: 98%;
-    
-     
-    
+    /* border: 1px solid; */
+  
+}
+.navlower-h1{
+    line-break: loose;
 }
 .navlower-h3{
 font-size: 19px;
+margin-top: -40px;
 }
 
-.plants
+.nav-leaf
 {
-    color: green;
+    height: 2rem;
+    width: 2rem;
+    /* color: green; */
 }
 
-
+.img-container{
+margin-top: -70px;
+}
 /* .img-container
 {
     /* position: relative; */
@@ -294,26 +302,26 @@ font-size: 19px;
 {
     
     text-align: center;
-    height: 90vh;
+    height: 80vh;
     position: relative;
     top: 0;
     left: 0;
-    padding-left:10%;
-    padding-top: 15%;
-    width: 90%;
-    justify-content: center;
-    border-radius:25px;   
+    padding-left:2%;
+    padding-top: 8%;
+    width: 94%;
+    justify-content:center;
+    border-radius:35px;   
 }
 
 .backDesign
 {
-    width: 95%; 
-     height: 100vh;
+    width: 118%; 
+     height: 110vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
      position: absolute;
-     margin-left: -75px;
+     margin-left: -100px;
    
      
 }
@@ -334,12 +342,12 @@ font-size: 19px;
     text-align: center;
     color: white;
     padding: 10px;
-    background-color: rgb(32, 32, 108);
+    background-color: #002d72;
     border: none;
     border-radius: 37px;
     align-items: center;
     padding: 3.5% 7%;
-    margin-top: 20px;
+    margin-top: -20px;
 
 }
 #btn:hover{
@@ -361,7 +369,7 @@ font-size: 19px;
 
 .navbar
 {
-    padding: 1% 6%;
+    padding: 0% 3%;
     text-align: center;
 }
 
@@ -377,7 +385,7 @@ font-size: 19px;
     width: 100%;
     height: 20vh;
     overflow: hidden;
-    background-color: rgb(203, 237, 252);
+    background-color:#d1f5ff;
 }
 
 section .wave 
@@ -414,7 +422,7 @@ section .wave
 .product-headline
 {
     text-align: center;
-    color: #062c6f;
+    color: #002d72;
     background-color: #fff;
     font-size: 24px;
 }
@@ -596,7 +604,7 @@ img:hover background-image{
 
 .h3-coco
 {
-    color: #062c6f;
+    color: #002d72;
     font-size: 20px;
     font-weight: 1000;
 }
@@ -627,7 +635,7 @@ img:hover background-image{
 } */
 .h3-bars
 {
-    color: #062c6f;
+    color: #002d72;
     font-size: 20px;
     font-weight: 1000;
 }
@@ -660,15 +668,16 @@ img:hover background-image{
     text-align: center;
     margin: 20px;
     margin-left: 45px;
+
 }
 .btn-coco
 {
-    background-color: #062c6f;
+    background-color:#002d72;
 }
 .card:hover .btn-coco
 {
     background-color: white;
-    color: #062c6f;
+    color: #002d72;
 }
 .btn-sparkling
 {
@@ -690,12 +699,12 @@ img:hover background-image{
 }
 .btn-bars
 {
-    background-color: #062c6f;
+    background-color: #002d72;
 }
 .card:hover .btn-bars
 {
     background-color:white ;
-    color:#062c6f ;
+    color:#002d72 ;
 }
 .products .coco
 {
@@ -740,7 +749,7 @@ background-color: rgb(11, 127, 173);
     justify-content: center;
     padding: 20px 30px;
     border-radius: 25px;
-    background-color: #062c6f;
+    background-color: #002d72;
     margin-left: 50px ;
     border: none;
     
@@ -784,7 +793,7 @@ background-color: rgb(11, 127, 173);
     position: relative;
     padding: 20px 30px;
     border-radius: 25px;
-    background-color: #062c6f;
+    background-color: #002d72;
     margin: 30px;
     border: none;
 }
@@ -805,8 +814,8 @@ background-color: rgb(11, 127, 173);
 footer
 {
     text-align: center;
-    background-color: skyblue;
-    color: #062c6f;
+    background-color:#74d1ea;
+    color: #002d72;
 }
 
 .logo-footer
@@ -832,20 +841,24 @@ footer
 {
     width: 96%;
     height: 12vh;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     padding: 1% 2%;
     font-size: 20px;
     align-items: left;
     margin-left: 20px;
+    color: #00709f;
     
-    
+}
+.input-footer::placeholder{
+    color: #00709f;
 }
 .btn-footer
 {
     color: white;
-    background-color: #062c6f;
+    background-color: #002d72;
     margin-left: -140px;
+    border-radius: 40px;
 }
 .h3-footer
 {
@@ -856,6 +869,7 @@ footer
 .h3-footer span
 {
     color: white;
+    font-size: 23px;
 }
 .h4-footer
 {
@@ -883,7 +897,7 @@ footer
     margin: 10px 0;
 }
 .footer-link a:hover{
-    color: #062c6f;
+    color: #002d72;
     background-color: white;
     padding: 0 20px;
     border-radius: 20px;
@@ -916,27 +930,30 @@ footer
 }
 .social-links .insta
 {
-    border: 1px solid #062c6f;
+    border: 1px solid #002d72;
     padding: 1%;
     border-radius: 50%;
-    background-color: #062c6f;
+    background-color: #002d72;
     color: white;
+    margin: 0 6px;
 }
 .social-links .face
 {
-    border: 1px solid #062c6f;
+    border: 1px solid #002d72;
     padding: 1%;
     border-radius: 50%;
-    background-color: #062c6f;
+    background-color: #002d72;
     color: white;
+    margin: 0 6px;
 }
 .social-links .twitt
 {
-    border: 1px solid #062c6f;
+    border: 1px solid #002d72;
     padding: 1%;
     border-radius: 50%;
-    background-color: #062c6f;
+    background-color: #002d72;
     color: white;
+    margin: 0 6px;
 }
 
 .social-footer h3
@@ -946,7 +963,7 @@ footer
 
 .footer-btn
 {
-    background-color: #062c6f;
+    background-color: #002d72;
     padding: 1rem 2.5rem;
     align-items: left;
     margin-left: 20px;
@@ -969,7 +986,7 @@ footer
     font-size: 3em;
     color: transparent;
     text-decoration-style:wavy;
-    text-decoration-color: #062c6f;
+    text-decoration-color: #002d72;
     text-decoration-line: underline;
 
 
@@ -991,7 +1008,7 @@ display: flex;
 flex-direction: column;
 }
 .footer-end a:hover{
-    color: #062c6f;
+    color: #002d72;
     background-color: #fff;
     border-radius: 25px;
     transition: .7s all;
