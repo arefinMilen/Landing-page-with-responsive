@@ -39,7 +39,7 @@ const translations = {
         title7:"Thirsty Buddha R Sparkling Coconut Water",
         title8:"Thirsty Buddha R Soda",
         title9:"Thirsty Buddha R Bars",
-        // title10:"POWERED BY PLANTS.",
+        title10:"POWERED BY PLANTS.",
         // title11:"FLELED BY PURPOSE.",
         title12:"Inspiration Delivered to your Inbox!",
         title13:"Shop",
@@ -115,7 +115,7 @@ function changeLanguage() {
     document.getElementById("title7").innerText = translations[lang].title7;
     document.getElementById("title8").innerText = translations[lang].title8;
     document.getElementById("title9").innerText = translations[lang].title9;
-    // document.getElementById("title10").innerText = translations[lang].title10;
+    document.getElementById("title10").innerText = translations[lang].title10;
     // document.getElementById("title11").innerText = translations[lang].title11;
      document.getElementById("title12").innerText = translations[lang].title12;
      document.getElementById("title13").innerText = translations[lang].title13;
@@ -134,7 +134,5 @@ function changeLanguage() {
     document.getElementById("description2").innerText = translations[lang].description2;
     document.getElementById("description3").innerText = translations[lang].description3;
     document.getElementById("description4").innerText = translations[lang].description4;
-    document.getElementById("description5").innerText = translations[lang].description5;
-
-    
+    document.getElementById("description5").innerText = translations[lang].description5; 
 }

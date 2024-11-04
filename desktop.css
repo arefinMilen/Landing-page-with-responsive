@@ -64,12 +64,14 @@ body
 {
     font-size: 27px;
     padding: 0 20px;
+    border: 1px solid ;
 }
 .nav_link a:hover{
     color: white;
     background-color: #062c6f;
     padding: 0 20px;
     border-radius: 20px;
+    
 }
 #lang
 {

@@ -315,14 +315,14 @@ margin-top: -70px;
 
 .backDesign
 {
-    width: 118%; 
+     width: 98%; 
      height: 110vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
      position: absolute;
-     margin-left: -100px;
-   
+     margin-left: -30px;
+    overflow-x: hidden;
      
 }
 .backDesign-footer
@@ -383,7 +383,7 @@ margin-top: -70px;
 {
     position: relative;
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     overflow: hidden;
     background-color:#d1f5ff;
 }
@@ -484,10 +484,8 @@ box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
     /* background-size: cover;
     transition: transform 1s ease; /* Smooth rotation */
     /* z-index: -1; */ 
-    background-image: url(/Images/Mandala_v2_o.svg); 
-    
-}  
-
+    background-image: url(/Images/Lines_600x.png);  
+}    
 
 img:hover background-image{
     transform: rotate(360deg) ;
@@ -681,21 +679,21 @@ img:hover background-image{
 }
 .btn-sparkling
 {
-    background-color: green;
+    background-color: #007a33;
 }
 .card:hover .btn-sparkling
 {
-    color: green;
+    color:#007a33;
     background-color: #fff;
 }
 .btn-soda
 {
-    background-color: rgb(214, 20, 20);
+    background-color: #ba0c2f;
 }
 .card:hover .btn-soda
 {
     background-color: white;
-    color:rgb(214, 20, 20) ;
+    color:#ba0c2f ;
 }
 .btn-bars
 {
@@ -708,7 +706,7 @@ img:hover background-image{
 }
 .products .coco
 {
-background-color: rgb(203, 237, 252);
+background-color: #d1f5ff;
 
 }
 .products .coco:hover
@@ -718,15 +716,15 @@ background-color: skyblue;
 }
 .products .sparkling
 {
-background-color: lemonchiffon;
+background-color: #f1ffca;
 }
 .products .sparkling:hover
 {
-background-color: green;
+background-color: #007a33;
 }
 .products .soda
 {
-background-color: lightcoral;
+background-color: #ffedf1;
 }
 .products .soda:hover
 {
@@ -734,7 +732,7 @@ background-color: darkred;
 }
 .products .bars
 {
-background-color: rgb(150, 216, 242);
+background-color: #74d1ea;
 }
 .products .bars:hover
 {
@@ -806,9 +804,99 @@ background-color: rgb(11, 127, 173);
 
 
 /* products sections ends here */
+/* site address start here */
+.site-address{
+    
+    height: 65vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #d1f5ff;
+    /* background-image: url(/Images/Lines_600x.png); */
+}
+.site-address-h3{
+    color: #0076a8;
+    position: relative;
+    /* border: 1px solid; */
+    margin-bottom: 0rem;
+    margin-top: 5rem;
+    padding-top: 3.5rem;
+}
+.site-address-h4{
+    color: #002d72;
+    font-size: 29px;
+    font-weight: 1000;
+    padding: .4rem;
+    position: relative;
+    /* border: 1px solid; */
+    margin-bottom: 8rem;
+}
+.site-img{
+    position: absolute;
+    height: 60vh;
+    width: 58vh;
+    align-items: center;
+    left: 23%;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    
 
+}
+.site-address-link{
+    margin-top: 140vh;
+    /* border: 1px solid; */
+    color: #0076a8;
+    position: relative;
+    
 
-
+    /* padding: 9rem; */
+}
+.site-address-link a{
+    color: #0076a8;
+    padding: .5rem;
+}
+.site-address-link a .insta{
+    color: white;
+    background-color: #0076a8;
+    padding: 1.5rem;
+    border: none;
+    font-size: 1.5rem;
+}
+.site-address-link a .insta:hover{
+    color: #0076a8;
+    background-color: #002d72;
+    padding: 1.6rem;
+    border: none;
+    transition: all 0.6s ease;
+}
+.site-address-link a .face{
+    color: white;
+    background-color: #0076a8;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border: none;
+}
+.site-address-link a .face:hover{
+    color: #0076a8;
+    background-color: #002d72;
+    padding: 1.6rem;
+    border: none;
+    transition: all 0.6s ease;
+}
+.site-address-link a .twitt{
+    color: white;
+    background-color: #0076a8;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border: none;
+}
+.site-address-link a .twitt:hover{
+    color: #0076a8;
+    background-color: #002d72;
+    padding: 1.6rem;
+    border: none;
+    transition: all 0.6s ease;
+}
 /*footer section starts here */
 
 footer
@@ -1083,7 +1171,7 @@ flex-direction: column;
     display: none;
     transform: translateX(100%);
     opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 4.3s ease, opacity 0.3s ease;
     position: fixed;
     
     top: 0;
@@ -1093,11 +1181,12 @@ flex-direction: column;
     background-color: white;
     z-index: 1000;
     padding: 20px;
-    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);  
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);
+    /* background-image: url(Images/Lines_600x.png);   */
     
     }
     .rotate-icon {
-        transition: transform 0.3s ease;
+        transition: transform 1.3s ease;
         transform: rotate(180deg);
     }
     /* Visible state of the menu */
