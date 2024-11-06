@@ -806,7 +806,7 @@ background-color: rgb(11, 127, 173);
 /* products sections ends here */
 /* site address start here */
 .site-address{
-    
+    display: flex;
     height: 65vh;
     text-align: center;
     justify-content: center;
@@ -818,40 +818,48 @@ background-color: rgb(11, 127, 173);
     color: #0076a8;
     position: relative;
     /* border: 1px solid; */
+    font-size: 28px;
+    font-weight: 350;
     margin-bottom: 0rem;
-    margin-top: 5rem;
-    padding-top: 3.5rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
 }
 .site-address-h4{
     color: #002d72;
-    font-size: 29px;
+    font-size: 49px;
     font-weight: 1000;
-    padding: .4rem;
+    padding: 0rem;
     position: relative;
     /* border: 1px solid; */
     margin-bottom: 8rem;
 }
 .site-img{
     position: absolute;
-    height: 60vh;
-    width: 58vh;
+    height: 65%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    left: 23%;
+    /* left: 23%; */
     margin: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: 1.5rem;
+    text-align: center;
 
 }
 .site-address-link{
-    margin-top: 140vh;
+    /* margin-bottom: 100vh; */
     /* border: 1px solid; */
     color: #0076a8;
     position: relative;
-    /* padding: 9rem; */
+    
 }
 .site-address-link a{
     color: #0076a8;
     padding: .5rem;
+    border: 1px solid;
+    /* margin-bottom: 5rem; */
+    /* margin: 0 .5em; */
 }
 .site-address-link a .insta{
     color: white;
@@ -1242,7 +1250,13 @@ transition: all .5s;
    header{
     width: auto;
    }
-     
+   /* .site-img{
+   
+    left: 26.5%;
+    width: 50vh;
+    height: 63vh;
+    
+    } */
       footer{
         overflow-x: hidden;
       }
@@ -1260,6 +1274,7 @@ transition: all .5s;
      
     .products{
         grid-template-columns: repeat(1, minmax(0,1fr));
+        
     }
     .product-btn{
         width: 100%;
@@ -1288,13 +1303,79 @@ transition: all .5s;
     width: 100%;
     overflow-x: hidden;
    }
-
-   .site-img{
-   
-    left: 12%;
-    width: 35vh;
-    height: 48vh;
+.animation{
+    height: 50vh;
+    margin-top: 1rem;
+}
+.backDesign{
+    height: 45vh;
+    margin-top: 1rem;
+}
+.card{
+height: 30vh;
+}
+.h3-coco{
+    text-align: left;
+}
+.h3-sparkling{
+    text-align: left;
+}
+.h3-soda{
+    text-align: left;
+}
+.h3-bars{
+    text-align: left;
+}
+.btn-coco{
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    margin-left: 1px;
+    width: 50%;
+}
+.btn-sparkling{
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    margin-left: 1px;
+    width: 50%;
+}
+.btn-soda{
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    margin-left: 1px;
+    width: 50%;
+}
+.btn-bars{
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    margin-left: 1px;
+    width: 50%;
+}
+.image-container{
+    height: 15vh;
+    left: 5%;
+    align-items: right;
     
+    
+}
+.coco-img{
+    left: 10%;
+    position: relative;
+}
+.back-product-img{
+    border: 1px solid;
+    left: 17%;
+    width: 30vh;
+    height: 15vh;
+    position: absolute;
+   
+}
+   .site-img{
+    width: 39vh;
+    height: 48vh;
     }
    /* .footer-logo-style{
     margin-left: -17%;
