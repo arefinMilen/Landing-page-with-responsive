@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
 }
-body {
+html,body {
     overflow-x: hidden;
 }
 
@@ -811,6 +811,7 @@ background-color: rgb(11, 127, 173);
     text-align: center;
     justify-content: center;
     background-color: #d1f5ff;
+    /* overflow-x: hidden; */
     /* background-image: url(/Images/Lines_600x.png); */
 }
 .site-address-h3{
@@ -839,7 +840,6 @@ background-color: rgb(11, 127, 173);
     margin: auto;
     padding-bottom: 2rem;
     padding-top: 1.5rem;
-    
 
 }
 .site-address-link{
@@ -847,8 +847,6 @@ background-color: rgb(11, 127, 173);
     /* border: 1px solid; */
     color: #0076a8;
     position: relative;
-    
-
     /* padding: 9rem; */
 }
 .site-address-link a{
@@ -1288,7 +1286,16 @@ transition: all .5s;
     }
    html{
     width: 100%;
+    overflow-x: hidden;
    }
+
+   .site-img{
+   
+    left: 12%;
+    width: 35vh;
+    height: 48vh;
+    
+    }
    /* .footer-logo-style{
     margin-left: -17%;
    } */
@@ -1302,6 +1309,18 @@ transition: all .5s;
 body{
     overflow-x: hidden;
   };
+  /* .site-img{
+    position: absolute;
+    height: 40vh;
+    width: 38vh;
+    align-items: center;
+    left: -35%;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    
+
+} */
 }
 
 @media (max-width:320px)

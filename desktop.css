@@ -185,7 +185,11 @@ body
 }
 /* products sections ends here */
 
-
+.site-img{
+   
+    left: 37%;
+    
+    }
 /* footer starts here */
 
 .footer-upper
