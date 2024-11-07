@@ -190,6 +190,34 @@ body
    width: 52vh;
     
     }
+    .site-address{
+        display: flex;
+        height: 65vh;
+        text-align: center;
+        justify-content: center;
+        background-color: #d1f5ff;
+        /* overflow-x: hidden; */
+        /* background-image: url(/Images/Lines_600x.png); */
+    }
+    /* .site-address-h3{
+         
+        border: 1px solid;
+        left: 26%;
+    } */
+
+    .site-address-link{
+        color: #0076a8;
+        position: relative;
+        /* border: 1px solid; */
+
+        
+    }
+    .site-address-link a{
+        color: #0076a8;
+        padding: 0rem;
+        /* border: 1px solid; */
+        left: -22%;
+    }
 /* footer starts here */
 
 .footer-upper
@@ -213,10 +241,10 @@ body
 {
     margin-top: 0px;
 }
-.social-links{
+/* .social-links{
     text-align: left;
     margin-left: -7px;
-}
+} */
 .social-links .insta
 {
     padding: .5rem;

@@ -1239,7 +1239,6 @@ flex-direction: column;
     opacity: 0;
     transition: transform 4.3s ease, opacity 0.3s ease;
     position: fixed;
-    
     top: 0;
     right: 0;
     width: 300px; /* Adjust width as needed */
@@ -1320,18 +1319,26 @@ transition: all .5s;
     /* .card{
         height: 38vh;
         } */
+        /* .site-img{
+   
+            width: 32vh;
+            height: 40vh;
+        }
+              */
       footer{
         overflow-x: hidden;
       }
       body{
         overflow-x: hidden;
-      };
+      }
+      
 }
 /* @media (max-width:768) {
-    body{
-        overflow-x:hidden ;
-    }
-} */
+    /* .site-img{
+        width: 50vh;
+        height: 24vh;
+        }
+} */ 
 @media (max-width:575px)
 {
      
@@ -1532,13 +1539,13 @@ body{
     body{
         overflow-x: hidden;
         width:100%;
-    }
+       }
     .footer-logo-style{
         margin-left: -47%;
         height: 50%;
         width: 30%;
-       }
-       body{
+         }
+    body{
         overflow-x: hidden;
-      };
+      }
 }
