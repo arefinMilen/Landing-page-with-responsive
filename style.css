@@ -487,9 +487,10 @@ box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
     /* background-image: url(/Images/Lines_600x.png);   */
 
 
-img:hover background-image{
+/* img:hover background-image{
     transform: rotate(360deg) ;
-}
+
+} */
 
 .product_img
 {
@@ -540,7 +541,7 @@ img:hover background-image{
 
 .image-container {
     position: relative;
-    width: 96%; /* Adjust as per your image size */
+    width: 98%; /* Adjust as per your image size */
     height: 400px; /* Adjust as per your image size */
      
 }
@@ -605,6 +606,7 @@ img:hover background-image{
     transition: transform 1s ease;
   }
   .card:hover .back-product-img {
+    
     animation: rotate360 7s linear infinite; /* Apply the animation */
   }
   @keyframes rotate360 {
@@ -1143,23 +1145,31 @@ footer
     display: flex;
     flex-direction: column;
     padding: .5rem;
-
+    display: inline-block;
+    /* border: 1px solid; */
 }
+/* .footer-copy-right{
+    padding: 2re,;
+    border: 1px solid;
+} */
 .footer-end a{
-    padding: 1rem;
+    padding: .5rem;
+    
+    
+    /* border: 1px solid; */
 }
 
 .footer-end-link {
-display: flex;
+display: grid;
 flex-direction: column;
+/* border: 1px solid; */
 }
 .footer-end a:hover{
     color: #002d72;
     background-color: #fff;
     border-radius: 25px;
-    transition: .7s all;
+    transition: .9s all ease-out;
     padding: .5rem .5rem;
-    
 }
 
 /* menu click button design starts here */
