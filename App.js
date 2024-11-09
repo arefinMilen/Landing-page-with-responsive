@@ -9,6 +9,9 @@ gsap.to(".gsap-nav",{
 // responsive menubar 
 const menuIcon = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
+const cancelBtn = document.getElementById('cancelBtn');
+const fullScreenMenu = document.getElementById('fullScreenMenu');
+const overlay = document.getElementById('overlay');
                                         
 menuIcon.addEventListener("click", ()=>{
     if(menu.className ==="hidden"){
@@ -24,7 +27,54 @@ menuIcon.addEventListener("click", ()=>{
     menuIcon.classList.toggle("fa-bars");
     menuIcon.classList.toggle("fa-times");
     menuIcon.classList.toggle("rotate-icon");
+    // menuIcon.classList.toggle("cancelBtn");
 });
+// Show full-screen menu
+menuBtn.addEventListener('click', () => {
+    fullScreenMenu.classList.add('active');
+    overlay.classList.add('active');
+  });
+// Hide full-screen menu
+cancelBtn.addEventListener('click', () => {
+    fullScreenMenu.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+  
+  // Optional: Hide menu if overlay is clicked
+  overlay.addEventListener('click', () => {
+    fullScreenMenu.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+  
+  // Function to show the menu only on screens below 1112px
+function toggleMenu() {
+    if (window.innerWidth < 1112) {
+      fullScreenMenu.classList.add('active');
+      overlay.classList.add('active');
+    }
+  }
+  
+  // Function to hide the menu
+  function hideMenu() {
+    fullScreenMenu.classList.remove('active');
+    overlay.classList.remove('active');
+  }
+  
+  // Show full-screen menu on menu button click, only when below 1112px
+  menuIcon.addEventListener('click', toggleMenu);
+  
+  // Hide full-screen menu on cancel button click
+  cancelBtn.addEventListener('click', hideMenu);
+  
+  // Optional: Hide menu if overlay is clicked
+  overlay.addEventListener('click', hideMenu);
+  
+  // Listen for window resize to close the menu if resized above 1112px
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1112) {
+      hideMenu(); // Close the menu if the screen is resized larger than 1112px
+    }
+  });
 
 // Language translations
 const translations = {

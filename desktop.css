@@ -73,6 +73,7 @@ body
     border-radius: 20px;
     
 }
+
 #lang
 {
     padding: 5px 17px;
@@ -86,6 +87,8 @@ body
     padding: 0% 7%;
 
 }
+
+
 .nav-lower{
     
     justify-content: left;
