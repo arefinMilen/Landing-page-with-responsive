@@ -11,7 +11,7 @@ html,body {
 .navigation-bar
 {
     background-color: #d1f5ff;
-    /* height: 210vh; */
+    /* height: 168vh; */
     
 }
 .nav-head
@@ -402,6 +402,8 @@ margin-top: -70px;
     height: 40vh;
     overflow: hidden;
     background-color:#d1f5ff;
+    /* border: 1px solid black; */
+    /* top: 190px; */
 }
 
 section .wave 
@@ -413,6 +415,7 @@ section .wave
  height: 100px;
  background: url(/Images/wave.png);
  background-size: 1000px 100px; 
+ /* border: 1px solid black; */
 }
 
 section .wave

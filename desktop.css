@@ -47,6 +47,12 @@ body
     background-color: rgb(8, 159, 219);
 }
 
+.navigation-bar
+{
+    background-color: #d1f5ff;
+    height: 168vh;
+    
+}
 .nav-logo
 {
     height: 100px;
@@ -142,12 +148,35 @@ body
 .backDesign
 {
     width: 120vh; 
-     height: 103vh;
+     height: 104vh;
      align-items: center;
      justify-content: center;
      border-radius: 25px;
      margin-left: -299px;
      margin-top: 65px;
+}
+
+.section-wave
+{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+    background-color:#d1f5ff;
+    /* border: 1px solid black; */
+    top: 160px;
+}
+
+section .wave 
+{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 120px;
+ background: url(/Images/wave.png);
+ background-size: 1000px 120px; 
+ /* border: 1px solid black; */
 }
 /* .backDesign */
 /* {
