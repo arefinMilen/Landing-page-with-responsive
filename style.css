@@ -325,6 +325,7 @@ margin-top: -70px;
     width: 94%;
     justify-content:center;
     border-radius:35px;   
+    /* border: 1px solid ; */
 }
 
 .backDesign
@@ -337,6 +338,7 @@ margin-top: -70px;
      position: absolute;
      margin-left: -30px;
     overflow-x: hidden;
+    /* border: 1px solid ; */
      
 }
 .backDesign-footer
@@ -1227,6 +1229,7 @@ flex-direction: column;
 .shop-all-products{
     display: none;
 }
+
 @media (max-width: 1112px)
 {
     label #menu-btn
@@ -1370,7 +1373,7 @@ transition: all .5s;
     font-weight: 250;
     color: #002d72;
     cursor: pointer;
-    
+    display: block;
   }
   #menuBtn {
     position: absolute;
@@ -1391,20 +1394,31 @@ transition: all .5s;
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .full-screen-menu .menu-content a:hover,
 .full-screen-menu .menu-content .shop-all-products:hover {
-  background-color: #444; /* Hover effect */
+    color: white;
+    background-color: #0076a8; /* Hover effect */
 }
 .menu-img-responsive{
     width: 250px;
     height: 250px;
     display: block;
   }
+  .menu-content {
+    text-decoration: underline;
+    text-decoration-color: #002d72;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 13px;
+    /* width: 80%; */
+    margin-top: 70px;
+   
+  }
+  
 /* Hide menu button by default */
 #menuBtn {
   display: none;
