@@ -594,7 +594,7 @@ box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     transition: opacity 0.5s ease;
   }
   
@@ -643,6 +643,7 @@ box-shadow: .1rem 0.2rem 0.8rem rgba(205,202,202,1);
   
   .image-container:hover .hover-image {
     opacity: 1; /* Show the second image on hover */
+    scale: 1.2;
   }
 /* Background image */
 /* .rotating-background {
@@ -1711,13 +1712,7 @@ body{
         margin-top: 17px;
         margin-right: -19px;
       }
-      .nav-upper .web-logo  
-      {
-
-        width: 10;
-        border: 1px solid black;
-         
-      }
+      
      /*  site-header__logo{
         width: 20px;
       } */
