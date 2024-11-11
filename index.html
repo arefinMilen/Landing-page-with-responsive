@@ -51,12 +51,18 @@
 <div class="overlay" id="overlay"></div>
 <!-- Sidebar menu content -->
 <div class="full-screen-menu" id="fullScreenMenu">
-    <span class="cancel-btn cencelBtn" id="cancelBtn">&times;</span>
+    <span class="cancel-btn cencelBtn" id="cancelBtn">
+        <select class="menu-slide-lang" name="lang" id="lang" onchange="changeLanguage()">
+            <option value="en">🍁EN</option>
+            <option value="fr">🍁FR</option>
+        </select>
+        &times;
+    </span>
         <div class="nav_link menu-content hidden" id="menu"> 
             <div class="logo">
                 <img  src="/Images/brands.jpg" alt="logo" class="nav-logo"><span>BUDDHA <br>BRANDS <SUP class="nav-sup">TM</SUP></span>
             </div>
-            <button class="shop-all-products upper-shop"><i class="fa-solid fa-bag-shopping fa-2x"></i>   YOUR BAG HAS 0 Items</button>
+            <button class="shop-all-products upper-shop"><i class="fa-solid fa-bag-shopping fa-2x"></i>   YOUR BAG HAS <span>0 Items</span></button>
             <a class="button-container tooltip-button" id="title2"  href="#">Products
                 <span class="tooltip-text tooltip-display">
 

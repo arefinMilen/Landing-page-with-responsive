@@ -1253,6 +1253,9 @@ flex-direction: column;
       .logo{
         display: block;
         display: flex;
+        margin-top: -70px;
+        /* border:1px solid ; */
+        width: 30%;
     }
 /* #menu{
         position: fixed;
@@ -1378,13 +1381,22 @@ transition: all .5s;
 /* Cancel button */
 .cancel-btn {
     position: absolute;
-    top: 0px;
+    top: -30px;
     right: 20px;
     font-size: 80px;
     font-weight: 250;
     color: #002d72;
     cursor: pointer;
     display: block;
+  }
+  .menu-slide-lang{
+    position: absolute;
+    top: 45px;
+    right: 34px;
+    font-size: 20px;
+    font-weight: 250;
+    border-radius: 10px;
+    padding: 2px 1rem;
   }
   #menuBtn {
     position: absolute;
@@ -1421,7 +1433,14 @@ transition: all .5s;
     justify-content: center;
     margin-left: 30%;
 }
-
+.upper-shop
+{
+    color: #002d72;
+    background-color: #74d1ea;
+}
+.upper-shop span {
+    color:#0076a8;
+};
 .full-screen-menu .menu-content a:hover,
 .full-screen-menu .menu-content .shop-all-products:hover {
     color: white;

@@ -9,7 +9,7 @@ gsap.to(".gsap-nav",{
 // responsive menubar 
 const menuIcon = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
-const cancelBtn = document.getElementById('cancelBtn');
+// const cancelBtn = document.getElementById('cencelBtn');
 const fullScreenMenu = document.getElementById('fullScreenMenu');
 const overlay = document.getElementById('overlay');
                                         
