@@ -7,7 +7,9 @@
 html,body {
     overflow-x: hidden;
 }
-
+.logo{
+    display: none;
+}
 .navigation-bar
 {
     background-color: #d1f5ff;
@@ -1248,7 +1250,10 @@ flex-direction: column;
       .full-screen-menu {
         display: flex;
       }
-      
+      .logo{
+        display: block;
+        display: flex;
+    }
 /* #menu{
         position: fixed;
         width: 100%;
@@ -1507,6 +1512,12 @@ transition: all .5s;
     width: 100%;
     overflow-x: hidden;
    }
+   .shop-all-products{
+    font-size: 15px;
+   padding: 5px 3rem;
+   border: none;
+   margin-left:27%;
+}
 .animation{
     height: 50vh;
     margin-top: 1rem;
@@ -1673,6 +1684,12 @@ body{
         overflow-x: hidden;
         width:100%;
        }
+       .shop-all-products{
+         font-size: 15px;
+        padding: 5px 2rem;
+        border: none;
+        margin-left: 15%;
+    }
     .footer-logo-style{
         margin-left: -47%;
         height: 50%;
