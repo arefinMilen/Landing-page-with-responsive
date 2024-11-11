@@ -1437,6 +1437,23 @@ transition: all .5s;
 {
     color: #002d72;
     background-color: #74d1ea;
+    position: relative;
+    padding: 3px;
+    font-size: 30px;
+    
+}
+.cartAmount
+{
+    position: absolute;
+    top: -4px;
+    right: 285px;
+    color: white;
+    font-weight: 400;
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 5px;
+
 }
 .upper-shop span {
     color:#0076a8;
@@ -1499,7 +1516,11 @@ transition: all .5s;
 } */ 
 @media (max-width:575px)
 {
-     
+     .cartAmount
+     {
+        top: -4px;
+    right: 186px;
+     }
     .products{
         grid-template-columns: repeat(1, minmax(0,1fr));
         
@@ -1748,6 +1769,13 @@ body{
         margin-top: -27%;
          
     }
+     
+    .cartAmount
+        {
+           top: -7px;
+       right: 169px;
+        }
+     
     .fa-bars{
         font-size: 15px;
         margin-top: 15px;
